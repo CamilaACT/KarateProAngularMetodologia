@@ -25,11 +25,11 @@ export class LayoutComponent {
       { label: 'Técnicas', icon: 'sports_martial_arts', route: '/pages/tecnicas', rolesAllowed: [] },
       { label: 'Roles', icon: 'admin_panel_settings', route: '/pages/roles', rolesAllowed: [] },
       { label: 'Competidores', icon: 'sports_kabaddi', route: '/pages/competidores', rolesAllowed: [] },
-      { label: 'Pelea', icon: 'sports_martial_arts', route: '/pages/peleas', rolesAllowed: ['Administrador', 'Juez de mesa'] },
-      { label: 'informeclub', icon: 'sports_martial_arts', route: '/pages/informeclub', rolesAllowed: ['Administrador', 'Juez de mesa','Director de clubes'] },
-      { label: 'informeCompetidores', icon: 'sports_martial_arts', route: '/pages/InformeCompetidorListaComponent', rolesAllowed: ['Administrador', 'Juez de mesa','Director de clubes'] },
-      { label: 'informeEdades', icon: 'sports_martial_arts', route: '/pages/InformeEdadComponent', rolesAllowed: ['Administrador', 'Juez de mesa','Director de clubes'] },
-      { label: 'InformePresentacionComponent', icon: 'sports_martial_arts', route: '/pages/InformePresentacionComponent', rolesAllowed: ['Administrador', 'Juez de mesa','Director de clubes'] },
+      { label: 'Pelea', icon: 'sports_martial_arts', route: '/pages/peleas', rolesAllowed: [] },
+      { label: 'informeclub', icon: 'sports_martial_arts', route: '/pages/informeclub', rolesAllowed: [] },
+      { label: 'informeCompetidores', icon: 'sports_martial_arts', route: '/pages/InformeCompetidorListaComponent', rolesAllowed: [] },
+      { label: 'informeEdades', icon: 'sports_martial_arts', route: '/pages/InformeEdadComponent', rolesAllowed: [] },
+      { label: 'InformePresentacionComponent', icon: 'sports_martial_arts', route: '/pages/InformePresentacionComponent', rolesAllowed: [] },
       
   ];
 
